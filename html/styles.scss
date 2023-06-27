@@ -62,6 +62,14 @@ $btn-code-copy-color-active: $orange !default;
 /*-- scss:rules --*/
 
 
+.navbar-logo{
+  max-height: 50px;
+ // max-width: 200%;
+ // max-height: 200%; 
+}
+
+
+
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
     flex-wrap: wrap;
