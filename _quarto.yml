@@ -42,12 +42,16 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2023 Pascal Bärtschi CC BY-SA 4.0</span>
+      <span class="faux-block">{{< fa brands creative-commons >}} 2023 Pascal Bärtschi</span>
+      <span class="faux-block"><a href="https://github.com/pascalbartschi/pascalbartschi.github.io">{{< fa brands github >}} Source Code</a></span>
     center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+      <span class="faux-block"> Designed with {{< fa heart >}} </span>
+    
+
     right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+      <span class="faux-block"> Built with <a href="https://quarto.org/">Quarto</a></span>
+      <span class="faux-block"> from this <a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">tutorial</a> 
+      
 
 project:
   type: website
